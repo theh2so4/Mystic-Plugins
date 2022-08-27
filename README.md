@@ -62,7 +62,7 @@
 ### :camera: GetCode Screenshots
 
 <div align="center"> 
-  <img src="https://placehold.co/600x400?text=Pronto" alt="screenshot" />
+  <img src="./assets/code-editor/getcode-1.jpggetcode-1.jpg" alt="screenshot" />
 </div>
 
 ### :space_invader: GetCode Dependencias Usadas
