@@ -62,7 +62,7 @@
 ### :camera: GetCode Screenshots
 
 <div align="center"> 
-  <img src="./assets/code-editor/getcode-1.jpggetcode-1.jpg" alt="screenshot" />
+  <img src="./assets/code-editor/getcode-1.jpg" alt="screenshot" />
 </div>
 
 ### :space_invader: GetCode Dependencias Usadas
