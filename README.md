@@ -35,9 +35,9 @@
   <span> · </span>
     <a href="https://github.com/TheH2SO4/Mystic-Plugins">Documentation</a> -->
   <span> · </span>
-    <a href="https://github.com/TheH2SO4/Mystic-Plugins/issues/">Report Bug</a>
+    <a href="https://github.com/TheH2SO4/Mystic-Plugins/issues/">Reportar Bug</a>
   <span> · </span>
-    <a href="https://github.com/TheH2SO4/Mystic-Plugins/issues/">Request Feature</a>
+    <a href="https://github.com/TheH2SO4/Mystic-Plugins/issues/">Sugerir Plugin</a>
   </h4>
 </div>
 
@@ -72,6 +72,8 @@
   <ul>
     <li><a href="https://www.javascript.com/">JavaScript</a></li>
     <li><a href="https://nodejs.org/">NodeJs</a></li>
+    <li><a href="https://www.npmjs.com/package/@adiwajshing/baileys">@Adiwajshing/Baileys</a></li>
+    <li><a href="https://www.npmjs.com/package/fs">fs</a></li>
   </ul>
 </details>
 
@@ -84,27 +86,24 @@ To run this project, you will need to add the following environment variables to
 
 `ANOTHER_API_KEY` -->
 
-<!-- ### :gear: Installation
+### :gear: GetCode Instalacion
 
-Install my-project with npm
+[✅] Plug and play!
 
-```bash
-  yarn install my-project
-  cd my-project
+```
+  Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins.
+  Reinicia tu bot y listo!
 ```
 
 <!-- Usage -->
-<!-- ## :eyes: Usage
+## :eyes: GetCode Uso
 
-Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
+```
+    #getcode + <ruta>
 
+    (Ejemplo ->)
 
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
+    #getcode /plugins/code-getcode.js
 ```
 
 <!-- Roadmap -->
@@ -115,16 +114,14 @@ function App() {
 
 
 <!-- Contributing -->
-<!-- ## :wave: Contributing
+## :wave: Contribuyendo
 
 <a href="https://github.com/TheH2SO4/Mystic-Plugins/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=TheH2SO4/Mystic-Plugins" />
 </a>
 
 
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
+Futuras contribuciones son y seran siempre bienvenidas!
 
 
 <!-- Code of Conduct -->
@@ -145,17 +142,17 @@ Please read the [Code of Conduct](https://github.com/TheH2SO4/Mystic-Plugins/blo
 
 
 <!-- License -->
-<!-- ## :warning: License
+## :warning: Licencia
 
-Distributed under the no License. See LICENSE.txt for more information.
+El software esta distribuido debajo de la licencia Apache 2.0. Hechale un ojo a LICENSE para mas informacion acerca de esta.
 
 
 <!-- Contact -->
-<!-- ## :handshake: Contact
+## :handshake: Contacto
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Th3H2SO4 - [@Th3H2SO4](https://twitter.com/th3h2so4) - TheH2SO4@protonmail.com
 
-Project Link: [https://github.com/TheH2SO4/Mystic-Plugins](https://github.com/TheH2SO4/Mystic-Plugins)
+Link del proyecto: [TheH2SO4/Mystic-Plugins](https://github.com/TheH2SO4/Mystic-Plugins)
 
 
 <!-- Acknowledgments -->
