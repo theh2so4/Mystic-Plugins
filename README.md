@@ -73,7 +73,6 @@
     <li><a href="https://www.javascript.com/">JavaScript</a></li>
     <li><a href="https://nodejs.org/">NodeJs</a></li>
     <li><a href="https://www.npmjs.com/package/@adiwajshing/baileys">@Adiwajshing/Baileys</a></li>
-    <li><a href="https://www.npmjs.com/package/fs">fs</a></li>
   </ul>
 </details>
 

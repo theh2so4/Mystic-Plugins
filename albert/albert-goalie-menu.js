@@ -20,8 +20,6 @@
 
 // # || Start [📍] || #
 
-import fs from 'fs';
-
 const PLUGIN_VERSION="1.0.0"
 
 let handler = async (m, {text, conn, args, usedPrefix, command }) => {
@@ -42,7 +40,7 @@ let handler = async (m, {text, conn, args, usedPrefix, command }) => {
         }
 }
 
-handler.help = ['getcode + <ruta>']
+handler.help = ['albert help']
 handler.tags = ['tools']
-handler.command = ['getcode']
+handler.command = ['albert help']
 export default handler
