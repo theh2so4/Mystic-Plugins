@@ -20,7 +20,9 @@
 
 // # || Start [📍] || #
 
-const PLUGIN_VERSION="1.0.1"
+import fs from 'fs';
+
+const PLUGIN_VERSION="1.0.2"
 
 let handler = async (m, {text, conn, args, usedPrefix, command }) => {
 
@@ -32,8 +34,12 @@ let handler = async (m, {text, conn, args, usedPrefix, command }) => {
             if (! text) {
                 message(`╭══════⊂(^(工)^)⊃══════╮\n\n[❌] Hey! Esta no es la manera correcta de usar *${usedPrefix}getcode*. La manera correcta de usarla es *${usedPrefix}getcode + <ruta del archivo>*! Ejemplo: *${usedPrefix}getcode /plugins/code-getcode.js*.\n\n----| *v${PLUGIN_VERSION}* - *TheH2SO4/Mystic-Plugins* |---\n\n╰══════⊂(^(工)^)⊃══════╯`)
             } else {
-                conn.sendFile(m.chat, `.${args[0]}`, null, { quoted: m })
-                message(`╭══════⊂(^(工)^)⊃══════╮\n\n[✅] Aqui esta el archivo en la ruta ' *${args[0]}* '!\n\nAlgun error? Reportalo abriendo una issue en GitHub!\n\n----| *v${PLUGIN_VERSION}* - *TheH2SO4/Mystic-Plugins* |---\n\n╰══════⊂(^(工)^)⊃══════╯`)
+                if (fs.existsSync(`.${args[0]}`)) {
+                    conn.sendFile(m.chat, `.${args[0]}`, null, { quoted: m })
+                    message(`╭══════⊂(^(工)^)⊃══════╮\n\n[✅] Aqui esta el archivo en la ruta ' *${args[0]}* '!\n\nAlgun error? Reportalo abriendo una issue en GitHub!\n\n----| *v${PLUGIN_VERSION}* - *TheH2SO4/Mystic-Plugins* |---\n\n╰══════⊂(^(工)^)⊃══════╯`)
+                } else {
+                    message(`╭══════⊂(^(工)^)⊃══════╮\n\n[❌] El archivo en la ruta ' *${args[0]}* ' no existe!\n\nAlgun error? Reportalo abriendo una issue en GitHub!\n\n----| *v${PLUGIN_VERSION}* - *TheH2SO4/Mystic-Plugins* |---\n\n╰══════⊂(^(工)^)⊃══════╯`)
+                }
             }
         } catch(error) {
             message(`╭══════⊂(^(工)^)⊃══════╮\n\n[❌] Ha ocurrido un error "${error}". Por favor, abra una issue en GitHub para reportar el error.\n\n----| *v${PLUGIN_VERSION}* - *TheH2SO4/Mystic-Plugins* |---\n\n╰══════⊂(^(工)^)⊃══════╯`)
