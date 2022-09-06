@@ -47,6 +47,8 @@
 
 - [Coding](#notebook_with_decorative_cover-plugins-disponibles)
   * [GetCode](#camera-getcode-screenshots)
+- [Tools](#notebook_with_decorative_cover-plugins-disponibles)
+  * [GeoIP](#camera-geoip-screenshots)
 <!-- - [Usage](#eyes-usage)
 - [Roadmap](#compass-roadmap)
 - [Contributing](#wave-contributing)
@@ -73,6 +75,7 @@
     <li><a href="https://www.javascript.com/">JavaScript</a></li>
     <li><a href="https://nodejs.org/">NodeJs</a></li>
     <li><a href="https://www.npmjs.com/package/@adiwajshing/baileys">@Adiwajshing/Baileys</a></li>
+    <li><a href="https://www.npmjs.com/package/fs">fs</a></li>
   </ul>
 </details>
 
@@ -109,8 +112,55 @@ To run this project, you will need to add the following environment variables to
 <!-- ## :compass: Roadmap
 
 * [x] Todo 1
-* [ ] Todo 2 
+* [ ] Todo 2  -->
 
+## :star2: Acerca de GeoIP
+
+
+### :camera: GeoIP Screenshots
+
+<div align="center"> 
+  <img src="./assets/tools/geoip-1.jpg" alt="screenshot" />
+</div>
+
+### :space_invader: GeoIP Dependencias Usadas
+
+<details>
+  <summary>Dependencias</summary>
+  <ul>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+    <li><a href="https://nodejs.org/">NodeJs</a></li>
+    <li><a href="https://www.npmjs.com/package/@adiwajshing/baileys">@Adiwajshing/Baileys</a></li>
+    <li><a href="https://www.npmjs.com/package/@sarequl/client-ip-details">@Sarequl/Client-ip-details</a></li>
+  </ul>
+</details>
+
+### :gear: GeoIP Instalacion
+
+[❌] Plug and play.
+
+```Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins.
+   Corre el siguiente comando para instalar la dependencia:
+```
+
+```Bash
+  npm install --save @sarequl/client-ip-details
+```
+
+```
+  Reinicia tu bot y listo!
+```
+
+<!-- Usage -->
+## :eyes: GeoIP Uso
+
+```
+    #geoip + <IPv4 publica>
+
+    (Ejemplo ->)
+
+    #geoip 179.24.239.201
+```
 
 <!-- Contributing -->
 ## :wave: Contribuyendo
