@@ -101,8 +101,10 @@ Reinicia tu bot y listo!
 ```
     #getcode + <ruta>
 
+```
     (Ejemplo ->)
 
+```
     #getcode /plugins/code-getcode.js
 ```
 
@@ -153,9 +155,11 @@ Reinicia tu bot y listo!
 
 ```
     #trackip + <IPv4 publica>
+```
 
     (Ejemplo ->)
-
+    
+```
     #trackip 179.24.239.201
 ```
 
