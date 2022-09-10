@@ -92,10 +92,8 @@ To run this project, you will need to add the following environment variables to
 
 [✅] Plug and play!
 
-```
-  Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins.
-  Reinicia tu bot y listo!
-```
+Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins.
+Reinicia tu bot y listo!
 
 <!-- Usage -->
 ## :eyes: GetCode Uso
@@ -133,6 +131,7 @@ To run this project, you will need to add the following environment variables to
     <li><a href="https://www.npmjs.com/package/@adiwajshing/baileys">@Adiwajshing/Baileys</a></li>
     <li><a href="https://www.npmjs.com/package/@sarequl/client-ip-details">@Sarequl/Client-ip-details</a></li>
     <li><a href="https://www.npmjs.com/package/is-ip">Is-ip</a></li>
+    <li><a href="https://www.npmjs.com/package/currency-symbol-map">Currency-symbol-map</a></li>
   </ul>
 </details>
 
@@ -140,17 +139,14 @@ To run this project, you will need to add the following environment variables to
 
 [❌] Plug and play.
 
-```Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins.
-   Corre el siguiente comando para instalar la dependencia:
-```
+Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins.
+  Corre el siguiente comando para instalar la dependencia:
 
 ```Bash
   npm install --save @sarequl/client-ip-details is-ip currency-symbol-map
 ```
 
-```
-  Reinicia tu bot y listo!
-```
+Reinicia tu bot y listo!
 
 <!-- Usage -->
 ## :eyes: GeoIP Uso
