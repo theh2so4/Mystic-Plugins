@@ -24,7 +24,7 @@ import { getCustomIpDetails } from '@sarequl/client-ip-details';
 import { isIP } from 'is-ip';
 import getSymbolFromCurrency from 'currency-symbol-map';
 
-const PLUGIN_VERSION="1.0.2"
+const PLUGIN_VERSION="1.0.3"
 
 let handler = async (m, {text, conn, args, usedPrefix, command }) => {
 

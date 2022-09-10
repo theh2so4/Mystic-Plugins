@@ -145,7 +145,7 @@ To run this project, you will need to add the following environment variables to
 ```
 
 ```Bash
-  npm install --save @sarequl/client-ip-details is-ip
+  npm install --save @sarequl/client-ip-details is-ip currency-symbol-map
 ```
 
 ```
