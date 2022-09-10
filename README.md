@@ -168,7 +168,17 @@ Reinicia tu bot y listo!
 ## :compass: TrackIP Roadmap
 
 * [x] Verificacion IP real
-* [x] Simbolo de moneda añadido
+* [x] Simbolo de moneda
+* [x] Numero de provincias
+* [x] Numero de monedas
+* [x] Numero de dominios oficiales
+* [x] Area total del pais
+* [x] Nombre nativo del pais
+* [x] Numero de habitantes totales del pais
+* [x] Wikipedia de el pais
+* [x] Prefijo del pais
+* [x] Numero de prefijos del pais
+* [x] Codigo numerico del pais
 
 <!-- Contributing -->
 ## :wave: Contribuyendo
