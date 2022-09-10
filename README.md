@@ -48,7 +48,7 @@
 - [Coding](#notebook_with_decorative_cover-plugins-disponibles)
   * [GetCode](#camera-getcode-screenshots)
 - [Tools](#notebook_with_decorative_cover-plugins-disponibles)
-  * [GeoIP](#camera-geoip-screenshots)
+  * [TrackIP](#camera-trackip-screenshots)
 <!-- - [Usage](#eyes-usage)
 - [Roadmap](#compass-roadmap)
 - [Contributing](#wave-contributing)
@@ -92,10 +92,8 @@ To run this project, you will need to add the following environment variables to
 
 [✅] Plug and play!
 
-```
-  Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins.
-  Reinicia tu bot y listo!
-```
+Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins.
+Reinicia tu bot y listo!
 
 <!-- Usage -->
 ## :eyes: GetCode Uso
@@ -114,16 +112,16 @@ To run this project, you will need to add the following environment variables to
 * [x] Todo 1
 * [ ] Todo 2  -->
 
-## :star2: Acerca de GeoIP
+## :star2: Acerca de TrackIP
 
 
-### :camera: GeoIP Screenshots
+### :camera: TrackIP Screenshots
 
 <div align="center"> 
-  <img src="./assets/tools/geoip-1.jpg" alt="screenshot" />
+  <img src="./assets/tools/trackip-1.jpg" alt="screenshot" />
 </div>
 
-### :space_invader: GeoIP Dependencias Usadas
+### :space_invader: TrackIP Dependencias Usadas
 
 <details>
   <summary>Dependencias</summary>
@@ -133,34 +131,32 @@ To run this project, you will need to add the following environment variables to
     <li><a href="https://www.npmjs.com/package/@adiwajshing/baileys">@Adiwajshing/Baileys</a></li>
     <li><a href="https://www.npmjs.com/package/@sarequl/client-ip-details">@Sarequl/Client-ip-details</a></li>
     <li><a href="https://www.npmjs.com/package/is-ip">Is-ip</a></li>
+    <li><a href="https://www.npmjs.com/package/currency-symbol-map">Currency-symbol-map</a></li>
   </ul>
 </details>
 
-### :gear: GeoIP Instalacion
+### :gear: TrackIP Instalacion
 
 [❌] Plug and play.
 
-```Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins.
-   Corre el siguiente comando para instalar la dependencia:
-```
+Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins.
+  Corre el siguiente comando para instalar la dependencia:
 
 ```Bash
-  npm install --save @sarequl/client-ip-details is-ip
+  npm install --save @sarequl/client-ip-details is-ip currency-symbol-map
 ```
 
-```
-  Reinicia tu bot y listo!
-```
+Reinicia tu bot y listo!
 
 <!-- Usage -->
-## :eyes: GeoIP Uso
+## :eyes: TrackIP Uso
 
 ```
-    #geoip + <IPv4 publica>
+    #trackip + <IPv4 publica>
 
     (Ejemplo ->)
 
-    #geoip 179.24.239.201
+    #trackip 179.24.239.201
 ```
 
 <!-- Contributing -->
