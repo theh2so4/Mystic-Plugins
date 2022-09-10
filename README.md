@@ -101,16 +101,17 @@ Reinicia tu bot y listo!
 ```
     #getcode + <ruta>
 
+```
     (Ejemplo ->)
 
+```
     #getcode /plugins/code-getcode.js
 ```
 
-<!-- Roadmap -->
-<!-- ## :compass: Roadmap
+## :compass: GetCode Roadmap
 
-* [x] Todo 1
-* [ ] Todo 2  -->
+* [x] Comprobar rutas
+* [ ] Permisos modificables (Admin, Owner)
 
 ## :star2: Acerca de TrackIP
 
@@ -153,11 +154,18 @@ Reinicia tu bot y listo!
 
 ```
     #trackip + <IPv4 publica>
+```
 
     (Ejemplo ->)
 
+```
     #trackip 179.24.239.201
 ```
+
+## :compass: TrackIP Roadmap
+
+* [x] Verificacion IP real
+* [x] Simbolo de moneda añadido
 
 <!-- Contributing -->
 ## :wave: Contribuyendo
