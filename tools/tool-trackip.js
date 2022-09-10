@@ -24,7 +24,7 @@ import { getCustomIpDetails } from '@sarequl/client-ip-details';
 import { isIP } from 'is-ip';
 import getSymbolFromCurrency from 'currency-symbol-map';
 
-const PLUGIN_VERSION="1.0.3"
+const PLUGIN_VERSION="1.0.4"
 
 let handler = async (m, {text, conn, args, usedPrefix, command }) => {
 
@@ -34,7 +34,7 @@ let handler = async (m, {text, conn, args, usedPrefix, command }) => {
     
         try {
             if (! text) {
-                message(`╭══════⊂(^(工)^)⊃══════╮\n\n[❌] Hey! Esta no es la manera correcta de usar *${usedPrefix}geoip*. La manera correcta de usarla es *${usedPrefix}geoip + <(IPv4/IPv6) publica del archivo>*! Ejemplo: *${usedPrefix}geoip 179.24.239.201*.\n\n----| *v${PLUGIN_VERSION}* - *TheH2SO4/Mystic-Plugins* |---\n\n╰══════⊂(^(工)^)⊃══════╯`)
+                message(`╭══════⊂(^(工)^)⊃══════╮\n\n[❌] Hey! Esta no es la manera correcta de usar *${usedPrefix}trackip*. La manera correcta de usarla es *${usedPrefix}trackip + <(IPv4/IPv6) publica del archivo>*! Ejemplo: *${usedPrefix}trackip 179.24.239.201*.\n\n----| *v${PLUGIN_VERSION}* - *TheH2SO4/Mystic-Plugins* |---\n\n╰══════⊂(^(工)^)⊃══════╯`)
             } else {
                 if (isIP(args[0])) {
                     const public_ip = await getCustomIpDetails(args[0])
@@ -48,7 +48,7 @@ let handler = async (m, {text, conn, args, usedPrefix, command }) => {
         }
 }
 
-handler.help = ['geoip + <(IPv4/IPv6) publica>']
+handler.help = ['trackip + <(IPv4/IPv6) publica>']
 handler.tags = ['tools']
-handler.command = ['geoip']
+handler.command = ['trackip']
 export default handler

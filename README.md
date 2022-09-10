@@ -48,7 +48,7 @@
 - [Coding](#notebook_with_decorative_cover-plugins-disponibles)
   * [GetCode](#camera-getcode-screenshots)
 - [Tools](#notebook_with_decorative_cover-plugins-disponibles)
-  * [GeoIP](#camera-geoip-screenshots)
+  * [TrackIP](#camera-trackip-screenshots)
 <!-- - [Usage](#eyes-usage)
 - [Roadmap](#compass-roadmap)
 - [Contributing](#wave-contributing)
@@ -112,16 +112,16 @@ Reinicia tu bot y listo!
 * [x] Todo 1
 * [ ] Todo 2  -->
 
-## :star2: Acerca de GeoIP
+## :star2: Acerca de TrackIP
 
 
-### :camera: GeoIP Screenshots
+### :camera: TrackIP Screenshots
 
 <div align="center"> 
-  <img src="./assets/tools/geoip-1.jpg" alt="screenshot" />
+  <img src="./assets/tools/trackip-1.jpg" alt="screenshot" />
 </div>
 
-### :space_invader: GeoIP Dependencias Usadas
+### :space_invader: TrackIP Dependencias Usadas
 
 <details>
   <summary>Dependencias</summary>
@@ -135,7 +135,7 @@ Reinicia tu bot y listo!
   </ul>
 </details>
 
-### :gear: GeoIP Instalacion
+### :gear: TrackIP Instalacion
 
 [❌] Plug and play.
 
@@ -149,14 +149,14 @@ Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins.
 Reinicia tu bot y listo!
 
 <!-- Usage -->
-## :eyes: GeoIP Uso
+## :eyes: TrackIP Uso
 
 ```
-    #geoip + <IPv4 publica>
+    #trackip + <IPv4 publica>
 
     (Ejemplo ->)
 
-    #geoip 179.24.239.201
+    #trackip 179.24.239.201
 ```
 
 <!-- Contributing -->
