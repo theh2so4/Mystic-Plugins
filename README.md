@@ -134,6 +134,7 @@ Reinicia tu bot y listo!
     <li><a href="https://www.npmjs.com/package/@sarequl/client-ip-details">@Sarequl/Client-ip-details</a></li>
     <li><a href="https://www.npmjs.com/package/is-ip">Is-ip</a></li>
     <li><a href="https://www.npmjs.com/package/currency-symbol-map">Currency-symbol-map</a></li>
+    <li><a href="https://www.npmjs.com/package/country-locale-map">Country-locale-map</a></li>
   </ul>
 </details>
 
@@ -145,7 +146,7 @@ Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins.
   Corre el siguiente comando para instalar la dependencia:
 
 ```Bash
-  npm install --save @sarequl/client-ip-details is-ip currency-symbol-map
+  npm install --save @sarequl/client-ip-details is-ip currency-symbol-map country-locale-map
 ```
 
 Reinicia tu bot y listo!
