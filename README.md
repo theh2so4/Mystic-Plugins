@@ -132,6 +132,7 @@ To run this project, you will need to add the following environment variables to
     <li><a href="https://nodejs.org/">NodeJs</a></li>
     <li><a href="https://www.npmjs.com/package/@adiwajshing/baileys">@Adiwajshing/Baileys</a></li>
     <li><a href="https://www.npmjs.com/package/@sarequl/client-ip-details">@Sarequl/Client-ip-details</a></li>
+    <li><a href="https://www.npmjs.com/package/is-ip">Is-ip</a></li>
   </ul>
 </details>
 
@@ -144,7 +145,7 @@ To run this project, you will need to add the following environment variables to
 ```
 
 ```Bash
-  npm install --save @sarequl/client-ip-details
+  npm install --save @sarequl/client-ip-details is-ip
 ```
 
 ```
