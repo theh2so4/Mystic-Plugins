@@ -22,14 +22,14 @@
 
 import fs from 'fs';
 
-const PLUGIN_VERSION="1.0.3"
+const PLUGIN_VERSION="1.0.4"
 
 let handler = async (m, {text, conn, args, usedPrefix, command }) => {
 
     ///////////////| [❗] Configuracion del Plugin |///////////////
 
-    let permsOwner = false // | Te gustaria que solo owners puedan usar este comando? (true/false)
-    let permsAdmin = true // | Te gustaria que solo administradores puedan usar este comando? (true/false)
+    let permsOwner = false // | Te gustaria que solo owners puedan usar este comando? (true/false) (NO USAR)
+    let permsAdmin = true // | Te gustaria que solo administradores puedan usar este comando? (true/false) (NO USAR)
 
     //////////////////////////////////////////////////////////
 
@@ -49,11 +49,11 @@ let handler = async (m, {text, conn, args, usedPrefix, command }) => {
             if (! text) {
                 message(`╭══════⊂(^(工)^)⊃══════╮\n\n[❌] Hey! Esta no es la manera correcta de usar *${usedPrefix}getcode*. La manera correcta de usarla es *${usedPrefix}getcode + <ruta del archivo>*! Ejemplo: *${usedPrefix}getcode /plugins/code-getcode.js*.\n\n----| *v${PLUGIN_VERSION}* - *TheH2SO4/Mystic-Plugins* |---\n\n╰══════⊂(^(工)^)⊃══════╯`)
             } else {
-                if (permsOwner === "true") {
+                /*if (permsOwner === "true") {
                     return noOwner()
                 } else if (permsAdmin === "true") {
                     return noAdmin()
-                }
+                }*/
                     if (fs.existsSync(`.${args[0]}`)) {
                         conn.sendFile(m.chat, `.${args[0]}`, null, { quoted: m })
                         message(`╭══════⊂(^(工)^)⊃══════╮\n\n[✅] Aqui esta el archivo en la ruta ' *${args[0]}* '!\n\nAlgun error? Reportalo abriendo una issue en GitHub!\n\n----| *v${PLUGIN_VERSION}* - *TheH2SO4/Mystic-Plugins* |---\n\n╰══════⊂(^(工)^)⊃══════╯`)

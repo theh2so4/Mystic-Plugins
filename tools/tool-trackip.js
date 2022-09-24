@@ -28,7 +28,7 @@ import country from 'countryjs';
 
 const PLUGIN_VERSION="1.1.1"
 
-let handler = async (m, {text, conn, args, usedPrefix, command }) => {
+let handler = async (m, { text, conn, args, usedPrefix, command }) => {
 
     function message(text) {
         conn.sendMessage(m.chat, { text: `${text}` }, {quoted: m})
