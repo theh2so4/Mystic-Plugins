@@ -98,7 +98,7 @@ Reinicia tu bot y listo!
 <!-- Usage -->
 ## :eyes: GetCode Uso
 
-#getcode + <ruta>
+#getcode + < ruta >
 
 (Ejemplo ->)
 
@@ -152,7 +152,7 @@ Reinicia tu bot y listo!
 <!-- Usage -->
 ## :eyes: TrackIP Uso
 
-#trackip + <IPv4/IPv6 publica>
+#trackip + < IPv4/IPv6 publica >
 
 (Ejemplo ->)
 
