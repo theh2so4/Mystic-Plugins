@@ -65,7 +65,7 @@
 ### :camera: GetFile - Screenshots
 
 <div align="center"> 
-  <img src="./assets/tools/getfile-1.jpg" alt="screenshot" />
+  <img src="./assets/tools/general/getfile-1.jpg" alt="screenshot" />
 </div>
 
 <!-- Dependencies -->
@@ -126,7 +126,7 @@ Ejemplo:
 ### :camera: TrackIP Screenshots
 
 <div align="center"> 
-  <img src="./assets/tools/trackip-1.jpg" alt="screenshot" />
+  <img src="./assets/tools/osint/trackip-1.jpg" alt="screenshot" />
 </div>
 
 <!-- Dependencies -->
@@ -150,7 +150,7 @@ Ejemplo:
 
 [❌] Plug and play.
 
-Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins. Ejecuta el siguiente comando para instalar las dependencias:
+[Descarga el plugin](/tools/osint/tool-trackip.js), copialo y simplemente pegalo en la carpeta plugins. Ejecuta el siguiente comando para instalar las dependencias:
 
 ```Bash
   npm install --save @sarequl/client-ip-details is-ip currency-symbol-map country-locale-map countryjs
