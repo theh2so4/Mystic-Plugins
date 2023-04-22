@@ -101,7 +101,7 @@ Inicia tu bot y listo!
 Ejemplo:
 
 ```
-#getfile /plugins/tools-getfile.js
+#getfile /plugins/general-getfile.js
 ```
 
 <!-- Roadmap -->
