@@ -28,8 +28,8 @@ let handler = async (m, {text, conn, args, usedPrefix, command }) => {
 
     ///////////////| [❗] Configuracion del Plugin |///////////////
 
-    let permsOwner = false // | Te gustaria que solo owners puedan usar este comando? (true/false) (NO USAR)
-    let permsAdmin = true // | Te gustaria que solo administradores puedan usar este comando? (true/false) (NO USAR)
+    /* let permsOwner = false // | Te gustaria que solo owners puedan usar este comando? (true/false) (NO USAR)
+    let permsAdmin = true // | Te gustaria que solo administradores puedan usar este comando? (true/false) (NO USAR) */
 
     //////////////////////////////////////////////////////////
 
@@ -37,17 +37,17 @@ let handler = async (m, {text, conn, args, usedPrefix, command }) => {
         conn.sendMessage(m.chat, { text: `${text}` }, {quoted: m})
     }
 
-    function noOwner() {
+    /* function noOwner() {
         conn.sendMessage(m.chat, { text: `╭══════⊂(^(工)^)⊃══════╮\n\n[❌] Hey! No tienes permiso de usar este comando, solo l@s Owners pueden!\n\n----| *v${PLUGIN_VERSION}* - *TheH2SO4/Mystic-Plugins* |---\n\n╰══════⊂(^(工)^)⊃══════╯` }, {quoted: m})
     }
 
     function noAdmin() {
         conn.sendMessage(m.chat, { text: `╭══════⊂(^(工)^)⊃══════╮\n\n[❌] Hey! No tienes permiso de usar este comando, solo l@s Admins pueden!\n\n----| *v${PLUGIN_VERSION}* - *TheH2SO4/Mystic-Plugins* |---\n\n╰══════⊂(^(工)^)⊃══════╯` }, {quoted: m})
-    }
+    } */
     
         try {
             if (! text) {
-                message(`╭══════⊂(^(工)^)⊃══════╮\n\n[❌] Hey! Esta no es la manera correcta de usar *${usedPrefix}getfile*. La manera correcta de usarla es *${usedPrefix}getfile + <ruta del archivo>*! Ejemplo: *${usedPrefix}getfile /plugins/code-getfile.js*.\n\n----| *v${PLUGIN_VERSION}* - *TheH2SO4/Mystic-Plugins* |---\n\n╰══════⊂(^(工)^)⊃══════╯`)
+                message(`╭══════⊂(^(工)^)⊃══════╮\n\n[❌] Hey! Esta no es la manera correcta de usar *${usedPrefix}getfile*. La manera correcta de usarla es *${usedPrefix}getfile + <ruta del archivo>*! Ejemplo: *${usedPrefix}getfile /plugins/tool-getfile.js*.\n\n----| *v${PLUGIN_VERSION}* - *TheH2SO4/Mystic-Plugins* |---\n\n╰══════⊂(^(工)^)⊃══════╯`)
             } else {
                 /*if (permsOwner === "true") {
                     return noOwner()
