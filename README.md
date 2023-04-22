@@ -9,7 +9,6 @@
     Aumenta las capacidades de tu bot de WhatsApp con plugins adicionales! Plug and play!
   </p>
   
-  
 <!-- Badges -->
 
 <p>
@@ -46,12 +45,14 @@
 # :notebook_with_decorative_cover: Plugins disponibles
 
 - [Tools](#notebook_with_decorative_cover-plugins-disponibles)
-  * [GetFile](#camera-getfile-screenshots)
-  * [TrackIP](#camera-trackip-screenshots)
+  * [General](#star2-acerca-de-getfile)
+    * [GetFile](#star2-acerca-de-getfile)
+  * [Osint](#star2-acerca-de-trackip)
+    * [TrackIP](#star2-acerca-de-trackip)
 
 <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
 
-<!-- Plugins | Tools -->
+<!-- Plugins (General) | Tools -->
 
 <!-- Tools | GetFile -->
 
@@ -111,6 +112,8 @@ Ejemplo:
 * [ ] Permisos modificables (Owner, Admin)
 
 <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- Plugins (Osint) | Tools -->
 
 <!-- Tools | TrackIP -->
 
