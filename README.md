@@ -49,6 +49,8 @@
   * [GetFile](#camera-getfile-screenshots)
   * [TrackIP](#camera-trackip-screenshots)
 
+<!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+
 <!-- Plugins | Tools -->
 
 <!-- Tools | GetFile -->
@@ -107,6 +109,8 @@ Ejemplo:
 
 * [x] Comprobar rutas
 * [ ] Permisos modificables (Owner, Admin)
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------- -->
 
 <!-- Tools | TrackIP -->
 
@@ -173,6 +177,8 @@ Ejemplo
 
 * [x] Verificacion IP real
 
+<!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+
 <!-- Contributing -->
 
 ## :wave: Contribuciones
@@ -181,8 +187,7 @@ Ejemplo
   <img src="https://contrib.rocks/image?repo=TheH2SO4/Mystic-Plugins" />
 </a>
 
-
-Futuras contribuciones seran siempre bienvenidas!
+Las contribuciones siempre seran bienvenidas!
 
 
 <!-- Code of Conduct -->
@@ -201,13 +206,11 @@ Please read the [Code of Conduct](https://github.com/TheH2SO4/Mystic-Plugins/blo
 
   + Answer 2
 
-
 <!-- License -->
 
 ## :warning: Licencia
 
 El software esta distribuido debajo de la licencia Apache 2.0. Hechale un ojo a LICENSE para mas informacion acerca de esta.
-
 
 <!-- Contact -->
 
@@ -216,7 +219,6 @@ El software esta distribuido debajo de la licencia Apache 2.0. Hechale un ojo a 
 Th3H2SO4 - [@Th3H2SO4](https://twitter.com/th3h2so4) - TheH2SO4@protonmail.com
 
 Link del proyecto: [TheH2SO4/Mystic-Plugins](https://github.com/TheH2SO4/Mystic-Plugins)
-
 
 <!-- Acknowledgments -->
 <!-- ## :gem: Acknowledgements
