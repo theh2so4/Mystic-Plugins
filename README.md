@@ -65,7 +65,7 @@
 ### :camera: GetFile - Screenshots
 
 <div align="center"> 
-  <img src="./assets/tools/general/getfile-1.jpg" alt="screenshot" />
+  <img src="./assets/tools/general/getfile-1.jpg" alt="screenshot"/>
 </div>
 
 <!-- Dependencies -->
@@ -126,7 +126,9 @@ Ejemplo:
 ### :camera: TrackIP Screenshots
 
 <div align="center"> 
-  <img src="./assets/tools/osint/trackip-1.jpg" alt="screenshot" />
+  <img src="./assets/tools/osint/trackip-1.jpg" alt="screenshot"/>
+  <img src="./assets/tools/osint/trackip-2.jpg" alt="screenshot"/>
+  <img src="./assets/tools/osint/trackip-3.jpg" alt="screenshot"/>
 </div>
 
 <!-- Dependencies -->
@@ -178,7 +180,43 @@ Ejemplo
 
 ## :compass: TrackIP - Roadmap
 
-* [x] Verificacion IP real
+* [x] Identificacion de Red Movil
+* [x] Identificacion de (Proxy/VPN)
+* [x] Es una (VPS/VDS/DEDI)
+* [x] Nombre del pais (Ingles/Espanol)
+* [x] Numero de fronteras
+* [x] Area del pais
+* [x] Capital del pais
+* [x] Numero de provincias del pais
+* [x] Bandera del pais
+* [x] Codigo de bandera
+* [x] Codigo de pais
+* [x] Codigo numberico del pais
+* [x] Idioma del pais
+* [x] Numero de idiomas del pais
+* [x] Prefijo del pais
+* [x] Numero de prefijos del pais
+* [x] Dominios del pais
+* [x] Numero de dominios del pais
+* [x] Continente del pais (Ingles)
+* [x] Codigo de continente del pais
+* [x] Link a Wikipedia sobre el pais
+* [x] Region de la IP
+* [x] Codigo de region
+* [x] Ciudad
+* [x] Codigo postal
+* [x] Latitud
+* [x] Longitud
+* [x] Zona Horaria
+* [x] Moneda local
+* [x] Numero de monedas
+* [x] Numero de habitantes
+* [x] Gentilicio (Ingles)
+* [x] ISP de la IP
+* [x] Organizacion de la IP
+* [x] ASN
+* [x] Nombre de ASN
+* [x] Reverse Proxy
 
 <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
 
