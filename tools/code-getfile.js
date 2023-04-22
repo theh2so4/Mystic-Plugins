@@ -47,7 +47,7 @@ let handler = async (m, {text, conn, args, usedPrefix, command }) => {
     
         try {
             if (! text) {
-                message(`╭══════⊂(^(工)^)⊃══════╮\n\n[❌] Hey! Esta no es la manera correcta de usar *${usedPrefix}getcode*. La manera correcta de usarla es *${usedPrefix}getcode + <ruta del archivo>*! Ejemplo: *${usedPrefix}getcode /plugins/code-getcode.js*.\n\n----| *v${PLUGIN_VERSION}* - *TheH2SO4/Mystic-Plugins* |---\n\n╰══════⊂(^(工)^)⊃══════╯`)
+                message(`╭══════⊂(^(工)^)⊃══════╮\n\n[❌] Hey! Esta no es la manera correcta de usar *${usedPrefix}getfile*. La manera correcta de usarla es *${usedPrefix}getfile + <ruta del archivo>*! Ejemplo: *${usedPrefix}getfile /plugins/code-getfile.js*.\n\n----| *v${PLUGIN_VERSION}* - *TheH2SO4/Mystic-Plugins* |---\n\n╰══════⊂(^(工)^)⊃══════╯`)
             } else {
                 /*if (permsOwner === "true") {
                     return noOwner()
@@ -66,7 +66,7 @@ let handler = async (m, {text, conn, args, usedPrefix, command }) => {
         }
 }
 
-handler.help = ['getcode + <ruta>']
+handler.help = ['getfile + <ruta>']
 handler.tags = ['tools']
-handler.command = ['getcode']
+handler.command = ['getfile']
 export default handler

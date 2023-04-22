@@ -9,6 +9,7 @@
   
   
 <!-- Badges -->
+
 <p>
   <a href="https://github.com/TheH2SO4/Mystic-Plugins/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/TheH2SO4/Mystic-Plugins" alt="contributors" />
@@ -31,9 +32,6 @@
 </p>
    
 <h4>
-    <!-- <a href="https://github.com/TheH2SO4/Mystic-Plugins/">View Demo</a>
-  <span> · </span>
-    <a href="https://github.com/TheH2SO4/Mystic-Plugins">Documentation</a> -->
   <span> · </span>
     <a href="https://github.com/TheH2SO4/Mystic-Plugins/issues/">Reportar Bug</a>
   <span> · </span>
@@ -45,50 +43,29 @@
 
 # :notebook_with_decorative_cover: Plugins disponibles
 
-- [Coding](#notebook_with_decorative_cover-plugins-disponibles)
-  * [GetCode](#camera-getcode-screenshots)
 - [Tools](#notebook_with_decorative_cover-plugins-disponibles)
+  * [GetFile](#camera-getfile-screenshots)
   * [TrackIP](#camera-trackip-screenshots)
-<!-- - [Usage](#eyes-usage)
-- [Roadmap](#compass-roadmap)
-- [Contributing](#wave-contributing)
-  * [Code of Conduct](#scroll-code-of-conduct)
-- [FAQ](#grey_question-faq)
-- [License](#warning-license)
-- [Contact](#handshake-contact)
-- [Acknowledgements](#gem-acknowledgements) -->
 
-## :star2: Acerca de GetCode
+## :star2: Acerca de GetFile
 
 
-### :camera: GetCode Screenshots
+### :camera: GetFile Screenshots
 
 <div align="center"> 
-  <img src="./assets/code/getcode-1.jpg" alt="screenshot" />
+  <img src="./assets/tools/getfile-1.jpg" alt="screenshot" />
 </div>
 
-### :space_invader: GetCode Dependencias Usadas
+### :space_invader: GetFile Dependencias Usadas
 
 <details>
   <summary>Dependencias</summary>
   <ul>
-    <li><a href="https://www.javascript.com/">JavaScript</a></li>
-    <li><a href="https://nodejs.org/">NodeJs</a></li>
-    <li><a href="https://www.npmjs.com/package/@adiwajshing/baileys">@Adiwajshing/Baileys</a></li>
     <li><a href="https://www.npmjs.com/package/fs">fs</a></li>
   </ul>
 </details>
 
-<!--
-### :key: Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY` -->
-
-### :gear: GetCode Instalacion
+### :gear: GetFile Instalacion
 
 [✅] Plug and play!
 
@@ -96,17 +73,19 @@ Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins.
 Reinicia tu bot y listo!
 
 <!-- Usage -->
-## :eyes: GetCode Uso
+## :eyes: GetFile Uso
 
-#getcode + < ruta >
+```
+    #getfile + < ruta >
+```
 
 (Ejemplo ->)
 
 ```
-    #getcode /plugins/code-getcode.js
+    #getfile /plugins/tools-getfile.js
 ```
 
-## :compass: GetCode Roadmap
+## :compass: GetFile Roadmap
 
 * [x] Comprobar rutas
 * [ ] Permisos modificables (Owner, Admin)
@@ -125,9 +104,6 @@ Reinicia tu bot y listo!
 <details>
   <summary>Dependencias</summary>
   <ul>
-    <li><a href="https://www.javascript.com/">JavaScript</a></li>
-    <li><a href="https://nodejs.org/">NodeJs</a></li>
-    <li><a href="https://www.npmjs.com/package/@adiwajshing/baileys">@Adiwajshing/Baileys</a></li>
     <li><a href="https://www.npmjs.com/package/@sarequl/client-ip-details">@Sarequl/Client-ip-details</a></li>
     <li><a href="https://www.npmjs.com/package/is-ip">Is-ip</a></li>
     <li><a href="https://www.npmjs.com/package/currency-symbol-map">Currency-symbol-map</a></li>
@@ -152,7 +128,9 @@ Reinicia tu bot y listo!
 <!-- Usage -->
 ## :eyes: TrackIP Uso
 
-#trackip + < IPv4/IPv6 publica >
+```
+    #trackip + <IPv4/IPv6 publica>
+```
 
 (Ejemplo ->)
 
@@ -163,19 +141,9 @@ Reinicia tu bot y listo!
 ## :compass: TrackIP Roadmap
 
 * [x] Verificacion IP real
-* [x] Simbolo de moneda
-* [x] Numero de provincias
-* [x] Numero de monedas
-* [x] Numero de dominios oficiales
-* [x] Area total del pais
-* [x] Nombre nativo del pais
-* [x] Numero de habitantes totales del pais
-* [x] Wikipedia de el pais
-* [x] Prefijo del pais
-* [x] Numero de prefijos del pais
-* [x] Codigo numerico del pais
 
 <!-- Contributing -->
+
 ## :wave: Contribuyendo
 
 <a href="https://github.com/TheH2SO4/Mystic-Plugins/graphs/contributors">
@@ -183,7 +151,7 @@ Reinicia tu bot y listo!
 </a>
 
 
-Futuras contribuciones son y seran siempre bienvenidas!
+Futuras contribuciones seran siempre bienvenidas!
 
 
 <!-- Code of Conduct -->
@@ -204,12 +172,14 @@ Please read the [Code of Conduct](https://github.com/TheH2SO4/Mystic-Plugins/blo
 
 
 <!-- License -->
+
 ## :warning: Licencia
 
 El software esta distribuido debajo de la licencia Apache 2.0. Hechale un ojo a LICENSE para mas informacion acerca de esta.
 
 
 <!-- Contact -->
+
 ## :handshake: Contacto
 
 Th3H2SO4 - [@Th3H2SO4](https://twitter.com/th3h2so4) - TheH2SO4@protonmail.com
