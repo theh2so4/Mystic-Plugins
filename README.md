@@ -213,7 +213,7 @@ Please read the [Code of Conduct](https://github.com/TheH2SO4/Mystic-Plugins/blo
 
 ## :warning: Licencia
 
-El software esta distribuido debajo de la licencia Apache 2.0. Hechale un ojo a LICENSE para mas informacion acerca de esta.
+El software esta distribuido debajo de la licencia Apache 2.0. Echale un ojo a LICENSE para mas informacion acerca de esta.
 
 <!-- Contact -->
 
