@@ -47,7 +47,7 @@ let handler = async (m, {text, conn, args, usedPrefix, command }) => {
     
         try {
             if (! text) {
-                message(`╭══════⊂(^(工)^)⊃══════╮\n\n[❌] Hey! Esta no es la manera correcta de usar *${usedPrefix}getfile*. La manera correcta de usarla es *${usedPrefix}getfile + <ruta del archivo>*! Ejemplo: *${usedPrefix}getfile /plugins/tool-getfile.js*.\n\n----| *v${PLUGIN_VERSION}* - *TheH2SO4/Mystic-Plugins* |---\n\n╰══════⊂(^(工)^)⊃══════╯`)
+                message(`╭══════⊂(^(工)^)⊃══════╮\n\n[❌] Hey! Esta no es la manera correcta de usar *${usedPrefix}getfile*. La manera correcta de usarla es *${usedPrefix}getfile + <ruta del archivo>*! Ejemplo: *${usedPrefix}getfile /plugins/general-getfile.js*.\n\n----| *v${PLUGIN_VERSION}* - *TheH2SO4/Mystic-Plugins* |---\n\n╰══════⊂(^(工)^)⊃══════╯`)
             } else {
                 /*if (permsOwner === "true") {
                     return noOwner()

@@ -85,7 +85,7 @@
 
 [✅] Plug and play!
 
-[Descarga el plugin](/tools/general/tool-getfile.js), copialo y simplemente pegalo en la carpeta plugins.
+[Descarga el plugin](/tools/general/general-getfile.js), copialo y simplemente pegalo en la carpeta plugins.
 Reinicia tu bot y listo!
 
 <!-- Usage -->
@@ -150,7 +150,7 @@ Ejemplo:
 
 [❌] Plug and play.
 
-[Descarga el plugin](/tools/osint/tool-trackip.js), copialo y simplemente pegalo en la carpeta plugins. Ejecuta el siguiente comando para instalar las dependencias:
+[Descarga el plugin](/tools/osint/osint-trackip.js), copialo y simplemente pegalo en la carpeta plugins. Ejecuta el siguiente comando para instalar las dependencias:
 
 ```Bash
 npm install --save @sarequl/client-ip-details is-ip currency-symbol-map country-locale-map countryjs
