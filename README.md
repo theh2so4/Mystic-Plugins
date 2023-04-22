@@ -1,3 +1,5 @@
+<!-- Start -->
+
 <div align="center">
 
   <img src="assets/logo.png" alt="logo" width="200" height="auto" />
@@ -47,14 +49,23 @@
   * [GetFile](#camera-getfile-screenshots)
   * [TrackIP](#camera-trackip-screenshots)
 
+<!-- Plugins | Tools -->
+
+<!-- Tools | GetFile -->
+
+<!-- About -->
+
 ## :star2: Acerca de GetFile
 
+<!-- Screenshots -->
 
 ### :camera: GetFile Screenshots
 
 <div align="center"> 
   <img src="./assets/tools/getfile-1.jpg" alt="screenshot" />
 </div>
+
+<!-- Dependencies -->
 
 ### :space_invader: GetFile Dependencias Usadas
 
@@ -65,6 +76,8 @@
   </ul>
 </details>
 
+<!-- Installation -->
+
 ### :gear: GetFile Instalacion
 
 [✅] Plug and play!
@@ -73,31 +86,43 @@ Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins.
 Reinicia tu bot y listo!
 
 <!-- Usage -->
+
 ## :eyes: GetFile Uso
 
 ```
-    #getfile + < ruta >
+  <prefijo>getfile + <ruta>
 ```
 
-(Ejemplo ->)
+<!-- Usage | Example -->
+
+Ejemplo:
 
 ```
-    #getfile /plugins/tools-getfile.js
+  #getfile /plugins/tools-getfile.js
 ```
+
+<!-- Roadmap -->
 
 ## :compass: GetFile Roadmap
 
 * [x] Comprobar rutas
 * [ ] Permisos modificables (Owner, Admin)
 
+<!-- Tools | TrackIP -->
+
+<!-- About -->
+
 ## :star2: Acerca de TrackIP
 
+<!-- Screenshots -->
 
 ### :camera: TrackIP Screenshots
 
 <div align="center"> 
   <img src="./assets/tools/trackip-1.jpg" alt="screenshot" />
 </div>
+
+<!-- Dependencies -->
 
 ### :space_invader: TrackIP Dependencias Usadas
 
@@ -112,12 +137,13 @@ Reinicia tu bot y listo!
   </ul>
 </details>
 
+<!-- Installation -->
+
 ### :gear: TrackIP Instalacion
 
 [❌] Plug and play.
 
-Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins.
-  Corre el siguiente comando para instalar la dependencia:
+Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins. Ejecuta el siguiente comando para instalar las dependencias:
 
 ```Bash
   npm install --save @sarequl/client-ip-details is-ip currency-symbol-map country-locale-map countryjs
@@ -126,17 +152,22 @@ Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins.
 Reinicia tu bot y listo!
 
 <!-- Usage -->
+
 ## :eyes: TrackIP Uso
 
 ```
-    #trackip + <IPv4/IPv6 publica>
+  <prefijo>trackip + <IPv4/IPv6 publica>
 ```
 
-(Ejemplo ->)
+<!-- Usage | Example -->
+
+Ejemplo
 
 ```
-    #trackip 179.24.239.201
+  #trackip 179.24.239.201
 ```
+
+<!-- Roadmap -->
 
 ## :compass: TrackIP Roadmap
 
