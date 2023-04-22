@@ -85,7 +85,7 @@
 
 [✅] Plug and play!
 
-Descarga el plugin, copialo y simplemente pegalo en la carpeta plugins.
+[Descarga el plugin](/tools/general/tool-getfile.js), copialo y simplemente pegalo en la carpeta plugins.
 Reinicia tu bot y listo!
 
 <!-- Usage -->
