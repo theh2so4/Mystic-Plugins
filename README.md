@@ -93,7 +93,7 @@ Reinicia tu bot y listo!
 ## :eyes: GetFile - Uso
 
 ```
-  <prefijo>getfile + <ruta>
+<prefijo>getfile + <ruta>
 ```
 
 <!-- Usage | Example -->
@@ -101,7 +101,7 @@ Reinicia tu bot y listo!
 Ejemplo:
 
 ```
-  #getfile /plugins/tools-getfile.js
+#getfile /plugins/tools-getfile.js
 ```
 
 <!-- Roadmap -->
@@ -153,7 +153,7 @@ Ejemplo:
 [Descarga el plugin](/tools/osint/tool-trackip.js), copialo y simplemente pegalo en la carpeta plugins. Ejecuta el siguiente comando para instalar las dependencias:
 
 ```Bash
-  npm install --save @sarequl/client-ip-details is-ip currency-symbol-map country-locale-map countryjs
+npm install --save @sarequl/client-ip-details is-ip currency-symbol-map country-locale-map countryjs
 ```
 
 Reinicia tu bot y listo!
@@ -163,7 +163,7 @@ Reinicia tu bot y listo!
 ## :eyes: TrackIP - Uso
 
 ```
-  <prefijo>trackip + <IPv4/IPv6 publica>
+<prefijo>trackip + <IPv4/IPv6 publica>
 ```
 
 <!-- Usage | Example -->
@@ -171,7 +171,7 @@ Reinicia tu bot y listo!
 Ejemplo
 
 ```
-  #trackip 179.24.239.201
+#trackip 179.24.239.201
 ```
 
 <!-- Roadmap -->
