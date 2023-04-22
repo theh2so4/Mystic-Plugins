@@ -59,7 +59,7 @@
 
 <!-- Screenshots -->
 
-### :camera: GetFile Screenshots
+### :camera: GetFile - Screenshots
 
 <div align="center"> 
   <img src="./assets/tools/getfile-1.jpg" alt="screenshot" />
@@ -67,7 +67,7 @@
 
 <!-- Dependencies -->
 
-### :space_invader: GetFile Dependencias Usadas
+### :space_invader: GetFile - Dependencias Usadas
 
 <details>
   <summary>Dependencias</summary>
@@ -78,7 +78,7 @@
 
 <!-- Installation -->
 
-### :gear: GetFile Instalacion
+### :gear: GetFile - Instalacion
 
 [✅] Plug and play!
 
@@ -87,7 +87,7 @@ Reinicia tu bot y listo!
 
 <!-- Usage -->
 
-## :eyes: GetFile Uso
+## :eyes: GetFile - Uso
 
 ```
   <prefijo>getfile + <ruta>
@@ -103,7 +103,7 @@ Ejemplo:
 
 <!-- Roadmap -->
 
-## :compass: GetFile Roadmap
+## :compass: GetFile - Roadmap
 
 * [x] Comprobar rutas
 * [ ] Permisos modificables (Owner, Admin)
@@ -124,7 +124,7 @@ Ejemplo:
 
 <!-- Dependencies -->
 
-### :space_invader: TrackIP Dependencias Usadas
+### :space_invader: TrackIP - Dependencias Usadas
 
 <details>
   <summary>Dependencias</summary>
@@ -139,7 +139,7 @@ Ejemplo:
 
 <!-- Installation -->
 
-### :gear: TrackIP Instalacion
+### :gear: TrackIP - Instalacion
 
 [❌] Plug and play.
 
@@ -153,7 +153,7 @@ Reinicia tu bot y listo!
 
 <!-- Usage -->
 
-## :eyes: TrackIP Uso
+## :eyes: TrackIP - Uso
 
 ```
   <prefijo>trackip + <IPv4/IPv6 publica>
@@ -169,13 +169,13 @@ Ejemplo
 
 <!-- Roadmap -->
 
-## :compass: TrackIP Roadmap
+## :compass: TrackIP - Roadmap
 
 * [x] Verificacion IP real
 
 <!-- Contributing -->
 
-## :wave: Contribuyendo
+## :wave: Contribuciones
 
 <a href="https://github.com/TheH2SO4/Mystic-Plugins/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=TheH2SO4/Mystic-Plugins" />
