@@ -85,7 +85,7 @@
 
 [✅] Plug and play!
 
-Deberas parar tu bot en caso de que se este ejecutando, luego [descarga el plugin](/tools/general/general-getfile.js), copialo y simplemente pegalo en la carpeta plugins.
+Deberas parar tu bot en caso de que se este ejecutando, luego [descarga el plugin](/tools/general/getfile/general-getfile.js), copialo y simplemente pegalo en la carpeta plugins.
 Inicia tu bot y listo!
 
 <!-- Usage -->
@@ -108,7 +108,7 @@ Ejemplo:
 
 ## :compass: GetFile - Roadmap
 
-* [x] Comprobar rutas
+* [x] Comprobar rutas - V1.0.0
 * [ ] Permisos modificables (Owner, Admin)
 
 <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
@@ -152,7 +152,7 @@ Ejemplo:
 
 [❌] Plug and play.
 
-Deberas parar tu bot en caso de que se este ejecutando, luego [descarga el plugin](/tools/osint/osint-trackip.js), copialo y simplemente pegalo en la carpeta plugins. Ejecuta el siguiente comando para instalar las dependencias:
+Deberas parar tu bot en caso de que se este ejecutando, luego [descarga el plugin](/tools/osint/trackip/osint-trackip.js), copialo y simplemente pegalo en la carpeta plugins. Ejecuta el siguiente comando para instalar las dependencias:
 
 ```Bash
 npm install --save @sarequl/client-ip-details is-ip currency-symbol-map country-locale-map countryjs

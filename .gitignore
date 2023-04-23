@@ -1,3 +1,9 @@
 # | Files | #
 
 tools/tool-geophone.js
+package.json
+package-lock.json
+
+# | Folders | #
+
+node_modules
